@@ -16,6 +16,8 @@ window.addEventListener('resize', () => {
   intro.style.fontSize = width / 30 + 'px';
   historia.style.fontSize = width / 20 + 'px';
   paragrafos.style.height = height + 'px';
+  inicio();
+  nevar();
 });
 
 function iniciar() {
